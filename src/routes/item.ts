@@ -13,10 +13,10 @@ router.get('/:id', getItem)
 router.post('/', postItem)
 
 
-router.put('/', updateItem)
+router.put('/:id', updateItem)
 
 
-router.delete('/', deleteItem)
+router.delete('/:id', deleteItem)
 
 
 export { router }
